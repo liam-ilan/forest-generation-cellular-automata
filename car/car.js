@@ -2,10 +2,10 @@ const readline = require('readline');
 
 const treeNumber = 25; // amount of trees to grow
 
-let ourX = 0;
-let prevX = -2;
 let fullWorld;
 const worldWidth = 1000;
+let ourX = Math.floor(worldWidth / 2);
+let prevX = ourX - 2;
 
 readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);

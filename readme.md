@@ -10,7 +10,7 @@ The node.js interactive demo runs in your terminal. The tree generation algorith
 Clone and run.
 
 ```bash
-git clone https://liamilan@bitbucket.org/liamilan/tree-life.git
+git clone https://bitbucket.org/liamilan/forest-generation-cellular-automata.git
 
 npm start
 ```

@@ -1,0 +1,22 @@
+{
+  "name": "forest-generation-cellular-automata",
+  "version": "1.0.0",
+  "description": "A tree cellular automata.",
+  "main": "car/car.js",
+  "scripts": {
+    "start": "node car/car.js",
+    "lint": "./node_modules/.bin/eslint car/car.js --fix && ./node_modules/.bin/eslint automata/automata.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://liamilan@bitbucket.org/liamilan/forest-generation-cellular-automata.git"
+  },
+  "author": "Liam Ilan",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/liamilan/forest-generation-cellular-automata",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

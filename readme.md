@@ -24,10 +24,10 @@ The cellular automata's cells have one of two states, living, or dead. Each cell
 
 1. The probability to grow left is h / 30 out of 1, with h being the height of the cell starting at 0. 
 2. The probability to grow right is also h / 30 out of 1.
-> A cell is more likely to grow outward the higher it is in the tree. In real trees, this helps outgrow other trees, helping them catch sunlight.
+> A cell is more likely to grow outward the higher it is. In real trees, this helps outgrow other trees, making sure the leaves can catch sunlight.
 3. The probability to grow up is (1 - (h / 30)) * 0.125 out of 1.
 4. A cell will not grow if there is a cell alive somewhere above it (or if it is not alive).
-> In real trees, leaves have to be catch sun to grow.
+> It is vital for real trees to catch sunlight to grow.
 
 
 ## Tree generation

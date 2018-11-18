@@ -15,6 +15,7 @@ git clone https://bitbucket.org/liamilan/forest-generation-cellular-automata.git
 npm start
 ```
 This will run an interactive demo where you drive your car in a savanna of cellular automata generated trees.
+![](./gifs/car.gif)
 
 
 ## Algorithm
@@ -40,6 +41,7 @@ To run the tree generation python version of the automata:
 ```bash
 python automata/automata.py [number of cells to start with]
 ```
+![](./gifs/python.gif)
 
 ## Author
 I am Liam Ilan, a 12 year old software developer who is never working, but always playing around.

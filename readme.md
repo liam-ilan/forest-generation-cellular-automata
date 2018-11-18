@@ -34,6 +34,8 @@ To run the tree generation node.js version of the automata:
 ```bash
 node automata/automata.js [number of cells to start with]
 ```
+![](./gifs/node.gif)
+
 To run the tree generation python version of the automata:
 ```bash
 python automata/automata.py [number of cells to start with]

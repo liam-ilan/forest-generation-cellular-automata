@@ -15,6 +15,7 @@ git clone https://bitbucket.org/liamilan/forest-generation-cellular-automata.git
 npm start
 ```
 This will run an interactive demo where you drive your car in a savanna of cellular automata generated trees.
+
 ![](./gifs/car.gif)
 
 
